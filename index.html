@@ -12,6 +12,11 @@
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="./public/css/main.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
     <link
       rel="stylesheet"
       href="https://demos.creative-tim.com/notus-js/assets/vendor/@fortawesome/fontawesome-free/css/all.min.css" />
@@ -36,7 +41,7 @@
     <!-- navbar -->
     <section>
       <nav
-        class="bg-gradient-to-tr from-white via-blue-gray-100 to-gray-300 p-4 shadow-xl fixed-top">
+        class="bg-gradient-to-tr from-white via-blue-gray-100 to-gray-300 p-4 shadow-xl fixed-top animate__animated animate__fadeInDown">
         <div class="container mx-auto flex justify-between items-center">
           <a
             href="#"
@@ -90,7 +95,7 @@
     <section
       id="heroes"
       class="flex justify-center mt-1 h-64 bg-gradient-to-tr from-gray-50 via-blue-100 to-gray-200">
-      <h1 class="max-w-4xl col-lg-4 ml-72 text-6xl font-bold font-sans my-56">
+      <h1 class="max-w-4xl col-lg-4 ml-72 text-6xl font-bold font-sans my-56 animate__animated animate__fadeInLeft">
         Cari Bacaan Menarik Kesukaan Kalian,Dengan BLOG-NEWS <br />
         <p class="text-sm mt-3 max-w-sm">
           Temukan artikel menarik dan seru untuk di baca
@@ -105,13 +110,13 @@
       <img
         src="./img/Profile.jpeg"
         alt=""
-        class="max-h-96 max-w-2xl mr-52 ml-0 rounded-2xl my-52 shadow-xl" />
+        class="max-h-96 max-w-2xl mr-52 ml-0 rounded-2xl my-52 shadow-xl animate__animated animate__fadeInRight" />
     </section>
 
     <!-- isi -->
     <section id="isi" class="flex">
       <img src="./img/readbook.webp" alt="" class="h-64 ml-32" />
-      <div class="blog-slider h-44 mr-36">
+      <div class="blog-slider h-44 mr-36" data-aos="fade-right">
         <button
           class="text-black shadow-lg h-14 w-14 items-center justify-center align-center rounded-full outline-none mr-2 bg-gray-300 hover:bg-teal-300"
           type="button">
@@ -127,7 +132,7 @@
 
     <!-- isi 2 -->
     <section id="isi" class="flex mt-32">
-      <div class="blog-slider h-44">
+      <div class="blog-slider h-44" data-aos="fade-left">
         <button
           class="text-black shadow-lg h-14 w-14 items-center justify-center align-center rounded-full outline-none mr-2 bg-gray-300 hover:bg-teal-300"
           type="button">
@@ -239,5 +244,9 @@
     </footer>
 
     <script src="../public/js/main.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
   </body>
 </html>
