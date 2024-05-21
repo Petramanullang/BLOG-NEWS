@@ -1,8 +1,11 @@
+::-webkit-scrollbar {
+  display: none;
+}
+
 /* Nabvar */
 .navbar {
-padding-bottom: 30px;
-color: black;
-
+  padding-bottom: 30px;
+  color: black;
 }
 
 .navbar-bg {
@@ -36,7 +39,7 @@ color: black;
 
 .blog-slider {
   width: 95%;
-position: relative;
+  position: relative;
   max-width: 800px;
   margin: auto;
   background: #fff;
@@ -44,63 +47,58 @@ position: relative;
   padding: 25px;
   border-radius: 25px;
   height: 400px;
-transition: all .3s;
+  transition: all 0.3s;
 }
 
 /* article */
 .wrapper {
-	margin: 100px 0 0 0;
-	padding: 0 100px;
+  margin: 100px 0 0 0;
+  padding: 0 100px;
 }
 
 .wrapper:after {
-	content: "";
-	display: block;
-	float: none;
-	clear: both;
+  content: "";
+  display: block;
+  float: none;
+  clear: both;
 }
 
 .wrapper > div {
-	float: left;
+  float: left;
 }
 
 .left {
-	width: 65%;
-	margin: 0 5% 0 0;
-	//height: 200vh;
-	//background: grey;
+  width: 65%;
+  margin: 0 5% 0 0;
 }
 
 .right {
-	width: 30%;
-	margin: 0 0 0 0;
-	//height: 200vh;
-	//background: grey;
+  width: 30%;
+  margin: 0 0 0 0;
 }
 
 article {
-	width: 100%;
-	margin: 0 0 50px 0;
+  width: 100%;
+  margin: 0 0 50px 0;
 }
 
 article:last-child {
-	margin: 0 0 0 0;
+  margin: 0 0 0 0;
 }
 
 article div.img {
-	height: 400px;
-	background: lightgrey;
+  height: 400px;
+  background: lightgrey;
 }
 
 div.side-article {
-	height: 400px;
-	margin: 0 0 20px 0;
+  height: 400px;
+  margin: 0 0 20px 0;
 }
 
 div.side-article:last-child {
-	margin: 0 0 0 0;
+  margin: 0 0 0 0;
 }
-
 
 /* Scroll btn */
 #myBtn {
@@ -124,11 +122,10 @@ div.side-article:last-child {
   object-fit: fill;
 }
 
-
 @media (min-width: 768px) and (max-width: 1399px) {
   .side {
-      margin-left: 3.1rem;
-    }
+    margin-left: 3.1rem;
+  }
 }
 
 @media (min-width: 1400px) {
